@@ -1,0 +1,48 @@
+
+/*Intro start*/
+.intro {
+    background-right: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.intro:after {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: #000;
+    opacity: .2;
+    content: "";
+}
+.intro__content {
+    height: 750px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+.intro__block {
+
+}
+
+.intro__title {
+    max-width: 790px;
+    margin-bottom: 30px;
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+/*Intro end*/
+.section {
+    margin-bottom: 100px;
+}
+.section.process {
+    padding-top: 50px;
+}
+/*Info start*/
